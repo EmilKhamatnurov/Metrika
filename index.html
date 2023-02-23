@@ -9,20 +9,22 @@
 	<title>Metrika</title>
 </head>
 <body>
-	<div class="wrapper">
-		<header class="header">
-				<a href="#" class="header_logo">
-					<img src="resources/Метрика.svg" alt="Site logo">
-				</a>
-				<nav class="header_navigation">
-					<a class="header_link"  href="#">О НАС</a>
-					<a class="header_link"  href="#">ПРОЕКТЫ</a>
-					<a class="header_link"  href="#">УСЛУГИ</a>
-					<a class="header_link"  href="#">КОНТАКТЫ</a>
-				</nav>
-		</header>
-		<main class="main">
-			<section class="primary-section">
+	<header class="header">
+		<div class="header_container">
+			<a href="#" class="header_logo">
+				<img src="resources/Метрика.svg" alt="Site logo">
+			</a>
+			<nav class="header_navigation">
+				<a class="header_link"  href="#">О НАС</a>
+				<a class="header_link"  href="#">ПРОЕКТЫ</a>
+				<a class="header_link"  href="#">УСЛУГИ</a>
+				<a class="header_link"  href="#">КОНТАКТЫ</a>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<section class="primary-section">
+			<div class="container">
 				<h1 class="primary-section_title">
 					Современные и стильные интерьеры для комфортной жизни
 				</h1>
@@ -32,8 +34,10 @@
 						занимающихся разработкой и реализацией дизайн-проектов
 					</p>
 				</div>
-			</section>
-			<section class="about">
+			</div>
+		</section>
+		<section class="about">
+			<div class="container">
 				<h2 class="section_title">
 					О НАС
 				</h2>
@@ -44,8 +48,10 @@
 					каждого интерьера, вплоть до каждой детали — нацелены на результат.
 				</p>
 				<a href="#" class="about_button">Посмотреть услуги</a>
-			</section>
-			<section class="projects">
+			</div>
+		</section>
+		<section class="projects">
+			<div class="container">
 				<h2 class="section_title">
 					ПРОЕКТЫ
 				</h2>
@@ -54,26 +60,28 @@
 					<p class="projects_card-name">
 						ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
 					</p>
-					<a href="#" class="projects_card-link">Подробнее</a>
+					<a href="#" class="projects_card-link">Подробнее →</a>
 				</div>
 				<div class="projects_card">
-					<img class="projects_card-image" src="/resources/Project1.jpeg" alt="first project image">
+					<img class="projects_card-image" src="/resources/Project2.jpeg" alt="first project image">
 					<p class="projects_card-name">
 						ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
 					</p>
-					<a href="#" class="projects_card-link">Подробнее</a>
+					<a href="#" class="projects_card-link">Подробнее →</a>
 				</div>
 				<div class="projects_card">
-					<img class="projects_card-image" src="/resources/Project1.jpeg" alt="first project image">
+					<img class="projects_card-image" src="/resources/Project3.png" alt="first project image">
 					<p class="projects_card-name">
 						ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
 					</p>
-					<a href="#" class="projects_card-link">Подробнее</a>
+					<a href="#" class="projects_card-link">Подробнее →</a>
 				</div>
 				<a href="#" class="projects_button">Смотреть все проекты</a>
-			</section>
-			<section class="services">
-				<h2 class="section_title">
+			</div>
+		</section>
+		<section class="services">
+			<div class="container">
+				<h2 class="section_title section_title__white">
 					УСЛУГИ
 				</h2>
 				<div class="services_card">
@@ -83,28 +91,56 @@
 					</div>
 				</div>
 				<div class="services_card">
-					<img src="resources/service1.jpeg" alt="First service image" class="services_card-image">
+					<img src="resources/service2.jpeg" alt="First service image" class="services_card-image">
 					<div class="services_card-name">
 						Планировочное решение — от 2500₽/м²
 					</div>
 				</div>
 				<div class="services_card">
-					<img src="resources/service1.jpeg" alt="First service image" class="services_card-image">
+					<img src="resources/service3.jpeg" alt="First service image" class="services_card-image">
 					<div class="services_card-name">
 						Планировочное решение — от 2500₽/м²
 					</div>
 				</div>
 				<div class="services_card">
-					<img src="resources/service1.jpeg" alt="First service image" class="services_card-image">
+					<img src="resources/service4.jpeg" alt="First service image" class="services_card-image">
 					<div class="services_card-name">
 						Планировочное решение — от 2500₽/м²
 					</div>
 				</div>
-			</section>
-		</main>
-		<div class="footer footer">
-
+			</div>
+		</section>
+		<section class="dedicated-service">
+				<div class="container">
+					<p class="dedicated-service_name">
+						Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж
+					</p>
+				</div>
+		</section>
+		<section class="contacts">
+			<div class="container">
+				<img src="resources/phone_icon.svg" alt="" class="contacts_phone-icon">
+				<h2 class="section_title">
+					Контакты
+				</h2>
+				<p class="contacts_phone_number">
+					+7 935  895-45-35
+				</p>
+				<p class="contacts_email">
+					hello@mail.com
+				</p>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer_wrapper">
+			<nav class="header_navigation footer_navigation">
+				<a class="header_link footer_link"  href="#">О НАС</a>
+				<a class="header_link footer_link"  href="#">ПРОЕКТЫ</a>
+				<a class="header_link footer_link"  href="#">УСЛУГИ</a>
+				<a class="header_link footer_link"  href="#">КОНТАКТЫ</a>
+			</nav>
 		</div>
-	</div>
+	</footer>
 </body>
 </html>

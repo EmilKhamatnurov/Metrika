@@ -7,18 +7,23 @@ body {
 	font-weight: 400;
 }
 
-.wrapper {
+.container {
 	margin: 0 auto;
-	display: flex;
-	padding: 0 20px 0 20px;
+	padding: 0 20px;
 	max-width: 1150px;
-	min-height: 100%;
-	flex-direction: column;
 }
 
 .header {
+	max-width: 100%;
+	margin-top: 32px;
+	margin-bottom: 70px;
+}
+
+.header_container {
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 0 20px;
 	display: flex;
-	margin: 32px 0 70px 0;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -73,6 +78,7 @@ body {
 .section_title {
 	font-size: 18px;
 	line-height: 25px;
+	text-transform: uppercase;
 	margin-bottom: 30px;
 }
 
@@ -103,7 +109,9 @@ body {
 	margin-bottom: 90px;
 }
 
-.projects_card-image {}
+.projects_card-image {
+	max-width: 100%;
+}
 
 .projects_card-name {
 	font-size: 30px;
@@ -118,7 +126,8 @@ body {
 
 .projects_button {
 	color: #AD1818;
-	padding: 50px 0 50px 0;
+	padding: 50px 0;
+	display: block;
 	border: 1px solid #AD1818;
 	font-size: 30px;
 	text-align: center;
@@ -127,15 +136,107 @@ body {
 }
 
 .services {
+	background-color: #121212;
+	padding: 150px 0;
+}
+
+.section_title__white {
+	color: #FFFFFF;
+}
+
+.services_card {
+	margin-bottom: 60px;
+}
+
+.services_card-image {
+	margin-bottom: 15px;
+	max-width: 100%;
+}
+
+.services_card-name {
+	color: #FFFFFF;
+	font-size: 30px;
+	line-height: 41px;
+}
+
+.dedicated-service {
+	background: url(../resources/section\ bacground\ image.png) center center no-repeat;
+	background-size: cover;
+	height: 717px;
+	position: relative;
+	max-width: 100%;
+}
+
+.dedicated-service_name {
+	color: #FFFFFF;
+	font-size: 30px;
+	max-width: 443px;
+	bottom: 60px;
+	position: absolute;
+	line-height: 41px;
+}
+
+.contacts {
+	padding: 150px 0;
+}
+
+.contacts_phone-icon {
+	margin-bottom: 12px;
+}
+
+.contacts_title {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+.contacts_phone_number {
+	margin-bottom: 30px;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.contacts_email {
+	font-size: 60px;
+	line-height: 60px;
+	color: #121212;
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+.footer {
+	background-color: #121212;
+	max-width: 100%;
+	padding: 40px 0;
+}
+
+.footer_wrapper {
+	max-width: 1150px;
 	margin: 0 auto;
 }
 
-.section_title {}
+.footer_navigation {
+	display: flex;
+	justify-content: center;
 
-.services_card {}
+}
 
-.services_card-image {}
+.footer_link {
+	color: #FFFFFF;
+}
 
-.services_card-name {}
+@media (max-width: 780px) {
+	.header_link {
+		font-size: 16px;
+		margin-left: 30px;
+		line-height: 20px;
+	}
 
-.footer {}
+	.primary-section_title {
+		font-size: 53px;
+		max-width: 990px;
+		line-height: 53px;
+		margin-bottom: 30px;
+	}
+
+}
