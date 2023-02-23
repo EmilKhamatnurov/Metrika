@@ -30,10 +30,17 @@ body {
 
 .header_link {
 	color: #121212;
+	position: relative;
 	font-size: 18px;
 	margin-left: 60px;
 	line-height: 25px;
 	text-decoration: none;
+}
+
+.header_link:hover {
+	color: #121212;
+	transition: 0.5s;
+	opacity: 0.5;
 }
 
 .header_link:first-child {
@@ -98,7 +105,13 @@ body {
 	padding: 20px 40px;
 	background: #AD1818;
 	text-decoration: none;
+}
 
+.about_button:hover {
+	color: #AD1818;
+	transition: 0.3s;
+	background: #FFFFFF;
+	border: 1px solid #AD1818;
 }
 
 .projects {
@@ -133,6 +146,14 @@ body {
 	text-align: center;
 	line-height: 41px;
 	text-decoration: none;
+}
+
+.projects_button:hover {
+	color: #FFFFFF;
+	transition: 0.5s;
+	background-color: #AD1818;
+	text-decoration: underline;
+	border: none;
 }
 
 .services {
@@ -222,6 +243,11 @@ body {
 }
 
 .footer_link {
+	color: #FFFFFF;
+}
+
+.footer_link:hover {
+	opacity: 0.5;
 	color: #FFFFFF;
 }
 
