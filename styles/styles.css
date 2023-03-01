@@ -4,7 +4,7 @@ html,
 body {
 	height: 100%;
 	font-family: 'Manrope', sans-serif;
-	font-weight: 400;
+	font-weight: 100;
 	letter-spacing: -0.03em;
 }
 
@@ -141,6 +141,7 @@ body {
 
 .projects_card-link {
 	color: #AD1818;
+	text-decoration: none;
 	font-size: 20px;
 	line-height: 27px;
 }
@@ -242,7 +243,7 @@ body {
 .footer {
 	background-color: #121212;
 	max-width: 100%;
-	padding: 40px 0;
+	padding: 51px 0;
 }
 
 .footer_wrapper {
