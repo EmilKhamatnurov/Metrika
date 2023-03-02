@@ -46,6 +46,7 @@ a {
 	margin-left: 57px;
 	line-height: 25px;
 	text-decoration: none;
+	border-bottom: 1px solid #FFFFFF;
 }
 
 .header__link:hover {
@@ -269,10 +270,12 @@ a {
 .footer__link {
 	color: rgb(255, 255, 255);
 	margin-left: 58px;
+	border-bottom: 1px solid #121212;
 }
 
 .footer__link:hover {
 	opacity: 0.5;
+	border-bottom: 1px solid #ffffff;
 	color: rgb(255, 255, 255);
 }
 
