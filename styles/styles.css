@@ -114,12 +114,13 @@ a {
 
 .about__button {
 	color: rgb(255, 255, 255);
-	padding: 19px 26px;
+	padding: 18px 26px;
 	background: rgb(173, 24, 24);
 	font-size: 20px;
 	line-height: 27px;
 	text-decoration: none;
 	border-radius: 5px;
+	border: 1px solid rgb(173, 24, 24);
 }
 
 .about__button:hover {
@@ -309,7 +310,7 @@ a {
 		height: 500px;
 		position: relative;
 		max-width: 100%;
-		background: url("../resources/main__image.jpg") center center / cover no-repeat;
+		background: url("../resources/main_image.jpg") center center / cover no-repeat;
 	}
 
 	.primary-section__text {
