@@ -4,7 +4,6 @@ html,
 body {
 	height: 100%;
 	font-family: 'Manrope', sans-serif;
-	letter-spacing: -0.03em;
 	font-weight: 400;
 	color: #121212;
 	box-sizing: border-box;
@@ -225,7 +224,7 @@ a {
 }
 
 .contacts {
-	padding: 150px 0;
+	margin: 150px 0;
 }
 
 .contacts_phone-icon {
