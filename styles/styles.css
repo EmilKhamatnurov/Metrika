@@ -379,3 +379,9 @@ a {
 		text-decoration: underline;
 	}
 }
+
+@media (max-width: 1400px) {
+	.dedicated-service {
+		background: url("../resources/section bacground image.png") center center / cover no-repeat;
+	}
+}
