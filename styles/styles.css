@@ -1,11 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap'); */
-
 html,
 body {
 	height: 100%;
-	font-family: 'Manrope', sans-serif;
+	font-family: Manrope, sans-serif;
 	font-weight: 400;
-	color: #121212;
+	color: rgb(18, 18, 18);
 	box-sizing: border-box;
 }
 
@@ -21,8 +19,8 @@ a {
 }
 
 .container {
-	margin: 0 auto;
-	padding: 0 20px;
+	margin: 0px auto;
+	padding: 0px 20px;
 	max-width: 1150px;
 }
 
@@ -32,33 +30,34 @@ a {
 	margin-bottom: 70px;
 }
 
-.header_container {
+.header__container {
 	max-width: 1150px;
-	margin: 0 auto;
-	padding: 0 20px;
+	margin: 0px auto;
+	padding: 0px 20px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.header_link {
-	color: #121212;
+.header__link {
+	color: rgb(18, 18, 18);
 	position: relative;
 	font-size: 18px;
 	margin-left: 57px;
 	line-height: 25px;
 	text-decoration: none;
+	border-bottom: 1px solid #FFFFFF;
 }
 
-.header_link:hover {
-	color: #121212;
-	transition: 0.5s;
+.header__link:hover {
+	color: rgb(18, 18, 18);
+	transition: all 0.5s ease 0s;
 	opacity: 0.5;
 	border-bottom: 1px solid;
 }
 
-.header_link:first-child {
-	margin-left: 0;
+.header__link:first-child {
+	margin-left: 0px;
 }
 
 .main {
@@ -69,26 +68,24 @@ a {
 	margin-bottom: 150px;
 }
 
-.primary-section_title {
+.primary-section__title {
 	font-size: 60px;
 	max-width: 990px;
 	line-height: 60px;
 	margin-bottom: 30px;
 }
 
-.primary-section_info {
+.primary-section__info {
 	width: 100%;
 	height: 500px;
 	position: relative;
 	max-width: 100%;
-	background: url(../resources/main_image.jpg) center center no-repeat;
-	background-size: cover;
-
+	background: url("../resources/main_image.jpg") center center / cover no-repeat;
 }
 
-.primary-section_text {
+.primary-section__text {
 	left: 40px;
-	color: #FFFFFF;
+	color: rgb(255, 255, 255);
 	bottom: 40px;
 	position: absolute;
 	max-width: 430px;
@@ -96,18 +93,18 @@ a {
 	line-height: 27px;
 }
 
-.section_title {
+.section__title {
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;
-	margin-bottom: 30px;
+	margin-bottom: 31px;
 }
 
 .about {
 	margin-bottom: 170px;
 }
 
-.about_text {
+.about__text {
 	max-width: 1060px;
 	font-size: 45px;
 	line-height: 61px;
@@ -116,55 +113,59 @@ a {
 	margin-bottom: 50px;
 }
 
-.about_button {
-	color: #FFFFFF;
-	padding: 20px 40px;
-	background: #AD1818;
+.about__button {
+	color: rgb(255, 255, 255);
+	padding: 18px 40px;
+	background: rgb(173, 24, 24);
 	font-size: 20px;
 	line-height: 27px;
 	text-decoration: none;
 	border-radius: 5px;
+	border: 1px solid rgb(173, 24, 24);
 }
 
-.about_button:hover {
-	color: #AD1818;
-	transition: 0.3s;
-	background: #FFFFFF;
-	border: 1px solid #AD1818;
-
+.about__button:hover {
+	color: rgb(173, 24, 24);
+	transition: all 0.3s ease 0s;
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(173, 24, 24);
 }
 
 .projects {
 	margin-bottom: 150px;
 }
 
-.projects_card {
+.projects__card {
 	margin-bottom: 88px;
 }
 
-.projects_card-image {
-	max-width: 100%;
-	margin-bottom: 15px;
+.projects__card_last {
+	margin-bottom: 89px;
 }
 
-.projects_card-name {
+.projects__card-image {
+	max-width: 100%;
+	margin-bottom: 13px;
+}
+
+.projects__card-name {
 	font-size: 30px;
-	margin-bottom: 15px;
+	margin-bottom: 16px;
 	line-height: 41px;
 }
 
-.projects_card-link {
-	color: #AD1818;
+.projects__card-link {
+	color: rgb(173, 24, 24);
 	text-decoration: none;
 	font-size: 20px;
 	line-height: 27px;
 }
 
-.projects_button {
-	color: #AD1818;
-	padding: 50px 0;
+.projects__button {
+	color: rgb(173, 24, 24);
+	padding: 55px 0px;
 	display: block;
-	border: 1px solid #AD1818;
+	border: 1px solid rgb(173, 24, 24);
 	font-size: 30px;
 	text-align: center;
 	line-height: 41px;
@@ -172,49 +173,46 @@ a {
 	border-radius: 5px;
 }
 
-.projects_button:hover {
-	color: #FFFFFF;
-	transition: 0.5s;
-	background-color: #AD1818;
-	border: none;
+.projects__button:hover {
+	color: rgb(255, 255, 255);
+	transition: all 0.5s ease 0s;
+	background-color: rgb(173, 24, 24);
 }
 
 .services {
-	background-color: #121212;
-	padding: 156px 0 87px 0;
-
+	background-color: rgb(18, 18, 18);
+	padding: 150px 0px 87px;
 }
 
-.section_title__white {
-	color: #FFFFFF;
+.section__title_white {
+	color: rgb(255, 255, 255);
 }
 
-.services_card {
+.services__card {
 	margin-bottom: 60px;
 }
 
-.services_card-image {
+.services__card-image {
 	margin-bottom: 15px;
 	max-width: 100%;
 }
 
-.services_card-name {
-	color: #FFFFFF;
+.services__card-name {
+	color: rgb(255, 255, 255);
 	font-size: 30px;
 	line-height: 41px;
 	font-weight: 100;
 }
 
 .dedicated-service {
-	background: url(../resources/section\ bacground\ image.png) center center no-repeat;
-	background-size: cover;
+	background: url("../resources/section bacground image.png") center center / contain no-repeat;
 	height: 717px;
 	position: relative;
 	max-width: 100%;
 }
 
-.dedicated-service_name {
-	color: #FFFFFF;
+.dedicated-service__name {
+	color: rgb(255, 255, 255);
 	font-size: 30px;
 	font-weight: 100;
 	max-width: 443px;
@@ -224,31 +222,31 @@ a {
 }
 
 .contacts {
-	margin: 150px 0;
+	margin: 150px 0 160px 0;
 }
 
-.contacts_phone-icon {
+.contacts__phone-icon {
 	margin-bottom: 12px;
 }
 
-.contacts_title {
+.contacts__title {
 	font-size: 18px;
 	line-height: 25px;
 	font-weight: 100;
 	margin-bottom: 30px;
 }
 
-.contacts_phone_number {
+.contacts__phone__number {
 	margin-bottom: 30px;
 	font-size: 60px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 60px;
 }
 
-.contacts_email {
+.contacts__email {
 	font-size: 60px;
 	line-height: 60px;
-	color: #121212;
+	color: rgb(18, 18, 18);
 	display: inline;
 	opacity: 0.5;
 	font-weight: 100;
@@ -256,37 +254,40 @@ a {
 }
 
 .footer {
-	background-color: #121212;
+	background-color: rgb(18, 18, 18);
 	max-width: 100%;
-	padding: 74px 0;
+	padding: 60px 0px 30px 0;
 }
 
-.footer_wrapper {
+.footer__wrapper {
 	max-width: 1150px;
-	margin: 0 auto;
+	margin: 0px auto;
 }
 
-.footer_navigation {
+.footer__navigation {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 87px;
 }
 
-.footer_link {
-	color: #FFFFFF;
+.footer__link {
+	color: rgb(255, 255, 255);
+	margin-left: 58px;
+	border-bottom: 1px solid #121212;
 }
 
-.footer_link:hover {
+.footer__link:hover {
 	opacity: 0.5;
-	color: #FFFFFF;
+	border-bottom: 1px solid #ffffff;
+	color: rgb(255, 255, 255);
 }
 
-.footer_author {
-	font-family: 'Manrope';
+.footer__author {
+	font-family: Manrope;
 	font-style: normal;
-	color: #FFFFFF;
-	font-weight: 100;
+	color: rgb(255, 255, 255);
+	font-weight: 400;
 	font-size: 20px;
 	line-height: 27px;
 	opacity: 0.5;
@@ -294,36 +295,34 @@ a {
 }
 
 @media (max-width: 780px) {
-	.header_link {
+	.header__link {
 		font-size: 16px;
 		margin-left: 30px;
 		line-height: 20px;
 	}
 
-	.section_wrapper {
+	.section__wrapper {
 		margin-bottom: 70px;
 	}
 
-	.primary-section_title {
+	.primary-section__title {
 		font-size: 40px;
 		max-width: 990px;
 		line-height: 53px;
 		margin-bottom: 30px;
 	}
 
-	.primary-section_info {
+	.primary-section__info {
 		width: 100%;
 		height: 500px;
 		position: relative;
 		max-width: 100%;
-		background: url(../resources/main_image.jpg) center center no-repeat;
-		background-size: cover;
-
+		background: url("../resources/main_image.jpg") center center / cover no-repeat;
 	}
 
-	.primary-section_text {
+	.primary-section__text {
 		left: 20px;
-		color: #FFFFFF;
+		color: rgb(255, 255, 255);
 		bottom: 20px;
 		position: absolute;
 		max-width: 430px;
@@ -331,52 +330,51 @@ a {
 		line-height: 27px;
 	}
 
-	.about_text {
+	.about__text {
 		font-size: 24px;
 		line-height: 30px;
 	}
 
-	.about_button {
+	.about__button {
 		padding: 15px 35px;
 	}
 
-
-	.projects_card-name {
+	.projects__card-name {
 		font-size: 24px;
 		line-height: 35px;
 	}
 
-	.projects_card {
+	.projects__card {
 		margin-bottom: 50px;
 	}
 
-	.projects_button {
-		padding: 17px 0;
+	.projects__button {
+		padding: 17px 0px;
 	}
 
 	.services {
-		padding: 70px 0;
+		padding: 70px 0px;
 	}
 
-	.services_card-name {
+	.services__card-name {
 		font-size: 24px;
 		line-height: 35px;
 	}
 
-	.contacts_phone_number {
+	.contacts__phone__number {
 		margin-bottom: 25px;
 		font-size: 40px;
 		line-height: 40px;
 	}
 
 	.contacts {
-		padding: 70px 0;
+		padding: 70px 0px;
 	}
 
-	.contacts_email {
+	.contacts__email {
 		font-size: 40px;
 		line-height: 40px;
-		color: #121212;
+		color: rgb(18, 18, 18);
 		opacity: 0.5;
 		text-decoration: underline;
 	}
