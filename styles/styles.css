@@ -131,30 +131,30 @@ a {
 	border: 1px solid rgb(173, 24, 24);
 }
 
-.projects {
+.projects__section {
 	margin-bottom: 150px;
 }
 
-.projects__card {
+.project {
 	margin-bottom: 88px;
 }
 
-.projects__card_last {
+.project_last {
 	margin-bottom: 89px;
 }
 
-.projects__card-image {
+.project__image {
 	max-width: 100%;
 	margin-bottom: 13px;
 }
 
-.projects__card-name {
+.project__name {
 	font-size: 30px;
 	margin-bottom: 16px;
 	line-height: 41px;
 }
 
-.projects__card-link {
+.project__link {
 	color: rgb(173, 24, 24);
 	text-decoration: none;
 	font-size: 20px;
@@ -179,7 +179,7 @@ a {
 	background-color: rgb(173, 24, 24);
 }
 
-.services {
+.services__wrapper {
 	background-color: rgb(18, 18, 18);
 	padding: 150px 0px 87px;
 }
@@ -188,16 +188,16 @@ a {
 	color: rgb(255, 255, 255);
 }
 
-.services__card {
+.service {
 	margin-bottom: 60px;
 }
 
-.services__card-image {
+.service__image {
 	margin-bottom: 15px;
 	max-width: 100%;
 }
 
-.services__card-name {
+.service__name {
 	color: rgb(255, 255, 255);
 	font-size: 30px;
 	line-height: 41px;
@@ -339,12 +339,12 @@ a {
 		padding: 15px 35px;
 	}
 
-	.projects__card-name {
+	.project__name {
 		font-size: 24px;
 		line-height: 35px;
 	}
 
-	.projects__card {
+	.project {
 		margin-bottom: 50px;
 	}
 
@@ -352,11 +352,11 @@ a {
 		padding: 17px 0px;
 	}
 
-	.services {
+	.services__wrapper {
 		padding: 70px 0px;
 	}
 
-	.services__card-name {
+	.service__name {
 		font-size: 24px;
 		line-height: 35px;
 	}
@@ -377,6 +377,10 @@ a {
 		color: rgb(18, 18, 18);
 		opacity: 0.5;
 		text-decoration: underline;
+	}
+
+	.footer__author {
+		font-size: 14px;
 	}
 }
 
