@@ -294,6 +294,12 @@ a {
 	text-align: center;
 }
 
+@media (max-width: 1400px) {
+	.dedicated-service {
+		background: url("../resources/section bacground image.png") center center / cover no-repeat;
+	}
+}
+
 @media (max-width: 780px) {
 	.header__link {
 		font-size: 16px;
@@ -352,6 +358,10 @@ a {
 		padding: 17px 0px;
 	}
 
+	.dedicated-service {
+		background: url("../resources/section bacground image.png") center center / cover no-repeat;
+	}
+
 	.services__wrapper {
 		padding: 70px 0px;
 	}
@@ -381,11 +391,5 @@ a {
 
 	.footer__author {
 		font-size: 14px;
-	}
-}
-
-@media (max-width: 1400px) {
-	.dedicated-service {
-		background: url("../resources/section bacground image.png") center center / cover no-repeat;
 	}
 }

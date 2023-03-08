@@ -1,12 +1,19 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
-<html lang="en">
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
 <head>
+	<!-- Кодировка страницы -->
 	<meta charset="UTF-8">
-	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Адаптивность  -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Подключаем стили -->
 	<link rel="stylesheet" href="styles/reset.css">
 	<link rel="stylesheet" href="styles/styles.css">
+	<!-- Подключаем шрифты -->
 	<link href="https://fonts.googleapis.com/css2?family=Manrope&amp;display=swap" rel="stylesheet">
+	<!-- Заголовок страницы в браузере -->
 	<title>Metrika</title>
 </head>
 <body>
@@ -15,6 +22,7 @@
 			<a href="#" class="header__logo">
 				<img src="resources/Метрика.svg" alt="Site logo">
 			</a>
+			<!-- Навигация сайта -->
 			<nav class="header__navigation">
 				<a class="header__link"  href="#about__us">О НАС</a>
 				<a class="header__link"  href="#projects">ПРОЕКТЫ</a>
@@ -24,6 +32,7 @@
 		</div>
 	</header>
 	<main class="main">
+		<!-- Главная секция -->
 		<section class="primary-section section__wrapper">
 			<div class="container">
 				<h1 class="primary-section__title">
@@ -37,6 +46,7 @@
 				</div>
 			</div>
 		</section>
+		<!-- Секция "О нас" -->
 		<section class="about section__wrapper">
 			<div class="container">
 				<h2 class="section__title" id="about__us">
@@ -51,6 +61,7 @@
 				<a href="#" class="about__button">Посмотреть услуги</a>
 			</div>
 		</section>
+		<!-- Секция "Проекты" -->
 		<section class="projects__section section__wrapper">
 			<div class="container">
 				<h2 class="section__title" id="projects">
@@ -82,6 +93,7 @@
 				<a href="#" class="projects__button">Смотреть все проекты</a>
 			</div>
 		</section>
+		<!-- Секция "Услуги" -->
 		<section class="services__wrapper section__wrapper">
 			<div class="container">
 				<h2 class="section__title section__title_white" id="services">
@@ -108,12 +120,13 @@
 			</div>
 		</section>
 		<section class="dedicated-service">
-				<div class="container">
+				<div class="container main-service-container">
 					<p class="dedicated-service__name">
 						Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж
 					</p>
 				</div>
 		</section>
+		<!-- Контакты -->
 		<section class="contacts section__wrapper">
 			<div class="container">
 				<img src="resources/phone_icon.svg" alt="" class="contacts__phone-icon">
