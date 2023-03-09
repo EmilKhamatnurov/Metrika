@@ -5,6 +5,7 @@ body {
 	font-weight: 400;
 	color: rgb(18, 18, 18);
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 h1,
@@ -205,7 +206,7 @@ a {
 }
 
 .dedicated-service {
-	background: url("../resources/section bacground image.png") center center / contain no-repeat;
+	background: url("../resources/section bacground image.png") center center / cover no-repeat;
 	height: 717px;
 	position: relative;
 	max-width: 100%;
@@ -225,9 +226,9 @@ a {
 	margin: 150px 0 160px 0;
 }
 
-.contacts__phone-icon {
+/* .contacts__phone-icon {
 	margin-bottom: 12px;
-}
+} */
 
 .contacts__title {
 	font-size: 18px;
@@ -241,6 +242,9 @@ a {
 	font-size: 60px;
 	font-weight: 400;
 	line-height: 60px;
+	display: block;
+	text-decoration: none;
+	color: #121212;
 }
 
 .contacts__email {
@@ -249,8 +253,9 @@ a {
 	color: rgb(18, 18, 18);
 	display: inline;
 	opacity: 0.5;
+	text-decoration: none;
 	font-weight: 100;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 }
 
 .footer {
@@ -307,9 +312,9 @@ a {
 		line-height: 20px;
 	}
 
-	.section__wrapper {
+	/* .section__wrapper {
 		margin-bottom: 70px;
-	}
+	} */
 
 	.primary-section__title {
 		font-size: 40px;
@@ -369,6 +374,19 @@ a {
 	.service__name {
 		font-size: 24px;
 		line-height: 35px;
+
+	}
+
+	.contacts__title {
+		/* position: relative; */
+	}
+
+	.contacts__title::before {
+		content: "";
+		display: block;
+		background: url(../resources/phone_icon.svg) center center / cover no-repeat;
+		width: 24px;
+		height: 24px;
 	}
 
 	.contacts__phone__number {
