@@ -108,6 +108,7 @@ a {
 .about__text {
 	max-width: 1060px;
 	font-size: 45px;
+	margin-left: 3px;
 	line-height: 61px;
 	letter-spacing: -0.03em;
 	font-weight: 100;
