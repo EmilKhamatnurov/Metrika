@@ -261,14 +261,25 @@ a {
 	background-size: contain;
 }
 
-.contacts__phone__number {
+.contacts__phone__number_paragraph {
 	margin-bottom: 30px;
+}
+
+.contacts__phone__number {
+
 	font-size: 60px;
 	font-weight: 400;
 	line-height: 60px;
-	display: block;
+	display: inline;
 	text-decoration: none;
 	color: #121212;
+	letter-spacing: -0.99px;
+}
+
+.contacts__phone__number:hover {
+	opacity: 0.5;
+	display: inline;
+	border-bottom: 2px solid black;
 	letter-spacing: -0.99px;
 }
 
@@ -277,9 +288,13 @@ a {
 	line-height: 57px;
 	color: rgb(18, 18, 18);
 	display: inline;
-	opacity: 0.5;
 	text-decoration: none;
 	font-weight: 100;
+
+}
+
+.contacts__email:hover {
+	opacity: 0.5;
 	border-bottom: 2px solid black;
 }
 
@@ -416,9 +431,7 @@ a {
 	.contacts__email {
 		font-size: 40px;
 		line-height: 40px;
-		color: rgb(18, 18, 18);
-		opacity: 0.5;
-		text-decoration: underline;
+
 	}
 
 	.footer__author {
