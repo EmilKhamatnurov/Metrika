@@ -62,7 +62,7 @@
 			</div>
 		</section>
 		<!-- Секция "Проекты" -->
-		<section class="projects__section section__wrapper">
+		<section class="projects-section section__wrapper">
 			<div class="container">
 				<h2 class="section__title project__title" id="projects">
 					ПРОЕКТЫ
@@ -94,29 +94,38 @@
 			</div>
 		</section>
 		<!-- Секция "Услуги" -->
-		<section class="services__wrapper section__wrapper">
+		<section class="services-section section__wrapper">
 			<div class="container">
 				<h2 class="section__title section__title_white services__title" id="services">
 					УСЛУГИ
 				</h2>
 				<ul class="services">
-					<li class="service">
-						<img class="service__image" src="resources/service1.jpeg" alt="Фотография плана вблизи">
-						<p class="service__name">Планировочное решение — от 2500₽/м²</p>
-					</li>
-					<li class="service">
-						<img class="service__image" src="resources/service2.jpeg" alt="Цветовая палитра">
-						<p class="service__name">Дизайн-проект — от 3000₽/м²</p>
-					</li>
-					<li class="service">
-						<img class="service__image" src="resources/service3.jpeg" alt="Процесс разработки проекта">
-						<p class="service__name">Авторский надзор — от 30 000₽ в месяц</p>
-					</li>
-					<li class="service">
-						<img class="service__image" src="resources/service4.jpeg" alt="Фотография склада">
-						<p class="service__name">Комплектация — 5% от стоимости спецификации</p>
-					</li>
+					<div class="services__row">
+						<li class="service">
+							<img class="service__image" src="resources/service1.jpeg" alt="Фотография плана вблизи">
+							<div class="service__detail">от 2500₽/м²</div>
+							<p class="service__name">Планировочное решение</p>
+						</li>
+						<li class="service">
+							<img class="service__image" src="resources/service2.jpeg" alt="Цветовая палитра">
+							<div class="service__detail">от 3000₽/м²</div>
+							<p class="service__name">Дизайн-проект</p>
+						</li>
+					</div>
+					<div class="services__row">
+						<li class="service">
+							<img class="service__image" src="resources/service3.jpeg" alt="Процесс разработки проекта">
+							<div class="service__detail">от 30 000₽/мес</div>
+							<p class="service__name">Авторский надзор</p>
+						</li>
+						<li class="service">
+							<img class="service__image" src="resources/service4.jpeg" alt="Фотография склада">
+							<div class="service__detail">5% от стоимости</div>
+							<p class="service__name">Комплектация</p>
+						</li>
+					</div>
 				</ul>
+				<button class="services-section__button">Заказать услугу</button>
 			</div>
 		</section>
 		<section class="dedicated-service">
@@ -129,7 +138,6 @@
 		<!-- Контакты -->
 		<section class="contacts section__wrapper">
 			<div class="container">
-				<!-- <img src="resources/phone_icon.svg" alt="" class="contacts__phone-icon"> -->
 				<h2 class="section__title contacts__title" id="contacts">
 					Контакты
 				</h2>
