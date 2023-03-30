@@ -18,11 +18,60 @@
 }
 
 .primary-section__text {
-	left: 40px;
 	color: rgb(255, 255, 255);
+	left: 40px;
 	bottom: 40px;
 	position: absolute;
 	max-width: 430px;
 	font-size: 20px;
 	line-height: 27px;
+}
+
+@media (max-width: 1199px) {
+	.primary-section {
+		margin-bottom: 120px;
+	}
+
+	.primary-section__title {
+		font-size: 50px;
+		line-height: 60px;
+		max-width: 802px;
+	}
+
+	.primary-section__info {
+		height: 400px;
+
+	}
+
+	.primary-section__text {
+		font-size: 20px;
+		bottom: 30px;
+		line-height: 27px;
+	}
+}
+
+@media (max-width: 767px) {
+	.primary-section {
+		margin-bottom: 80px;
+	}
+
+	.primary-section__title {
+		font-size: 30px;
+		line-height: 32px;
+		margin-bottom: 25px;
+		width: 100%;
+	}
+
+	.primary-section__info {
+		height: 304px;
+		background: url("../resources/interior\ phone\ image.png") center center / cover no-repeat
+	}
+
+	.primary-section__text {
+		left: 15px;
+		bottom: 15px;
+		font-size: 16px;
+		line-height: 22px;
+	}
+
 }

@@ -30,7 +30,7 @@ a {
 .container {
 	margin: 0px auto;
 	padding: 0px 20px;
-	max-width: 1150px;
+	width: 1150px;
 }
 
 .main {
@@ -42,4 +42,31 @@ a {
 	line-height: 25px;
 	text-transform: uppercase;
 	margin-bottom: 32px;
+}
+
+@media (max-width: 1199px) {
+	.container {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 17px;
+	}
+
+	.section__title {
+		font-size: 18px;
+		line-height: 25px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding-left: 13px;
+		padding-right: 12px;
+	}
+
+	.section__title {
+		font-size: 14px;
+		line-height: 19px;
+		margin-bottom: 30px;
+	}
 }
