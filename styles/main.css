@@ -1,72 +1,78 @@
-@import url("header.css");
-@import url("primary\ section.css");
-@import url("about\ us.css");
-@import url("projects.css");
-@import url("services.css");
-@import url("contacts.css;
-@import url("footer.css");
+@import "/styles/header.css";
 
-	html,
-	body {
-		height: 100%;
-		font-family: Manrope, sans-serif;
-		font-weight: 400;
-		color: rgb(18, 18, 18);
-		box-sizing: border-box;
-		scroll-behavior: smooth;
-	}
+@import "/styles/primary\ section.css";
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	p,
-	a {
-		letter-spacing: -0.03em;
-	}
+@import "/styles/about\ us.css";
 
+@import "/styles/projects.css";
+
+@import "/styles/services.css";
+
+@import "/styles/contacts.css";
+
+@import "/styles/footer.css";
+
+html,
+body {
+	height: 100%;
+	font-family: Manrope, sans-serif;
+	font-weight: 400;
+	color: rgb(18, 18, 18);
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	letter-spacing: -0.03em;
+}
+
+.container {
+	margin: 0px auto;
+	padding: 0px 20px;
+	width: 1150px;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.section__title {
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-bottom: 32px;
+}
+
+@media (max-width: 1199px) {
 	.container {
-		margin: 0px auto;
-		padding: 0px 20px;
-		width: 1150px;
-	}
-
-	.main {
-		flex: 1 1 auto;
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 17px;
 	}
 
 	.section__title {
 		font-size: 18px;
 		line-height: 25px;
-		text-transform: uppercase;
-		margin-bottom: 32px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding-left: 13px;
+		padding-right: 12px;
 	}
 
-	@media (max-width: 1199px) {
-		.container {
-			width: 100%;
-			padding-left: 15px;
-			padding-right: 17px;
-		}
-
-		.section__title {
-			font-size: 18px;
-			line-height: 25px;
-			margin-bottom: 30px;
-		}
+	.section__title {
+		font-size: 14px;
+		line-height: 19px;
+		margin-bottom: 30px;
 	}
-
-	@media (max-width: 767px) {
-		.container {
-			padding-left: 13px;
-			padding-right: 12px;
-		}
-
-		.section__title {
-			font-size: 14px;
-			line-height: 19px;
-			margin-bottom: 30px;
-		}
-	}
+}
