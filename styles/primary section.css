@@ -40,7 +40,6 @@
 
 	.primary-section__info {
 		height: 400px;
-
 	}
 
 	.primary-section__text {
@@ -60,6 +59,7 @@
 		line-height: 32px;
 		margin-bottom: 25px;
 		width: 100%;
+		max-width: 348px;
 	}
 
 	.primary-section__info {
@@ -71,6 +71,7 @@
 		left: 15px;
 		bottom: 15px;
 		font-size: 16px;
+		max-width: 312px;
 		line-height: 22px;
 	}
 
