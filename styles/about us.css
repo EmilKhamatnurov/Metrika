@@ -1,5 +1,5 @@
 .about {
-	margin-bottom: 170px;
+	margin-bottom: 150px;
 }
 
 .about__text {
@@ -9,7 +9,7 @@
 	line-height: 61px;
 	letter-spacing: -0.03em;
 	font-weight: 100;
-	margin-bottom: 49px;
+	margin-bottom: 30px;
 }
 
 .about__button {

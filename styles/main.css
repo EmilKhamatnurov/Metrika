@@ -1,16 +1,9 @@
-/* @import "../styles/header.css";
-@import "../styles/primary\ section.css";
-@import "../styles/about\ us.css";
-@import "../styles/projects.css";
-@import "../styles/services.css";
-@import "../styles/contacts.css";
-@import "../styles/footer.css"; */
-
 @import url(header.css);
 @import url(primary\ section.css);
 @import url(about\ us.css);
 @import url(projects.css);
 @import url(services.css);
+@import url(reviews.css);
 @import url(contacts.css);
 @import url(footer.css);
 
@@ -37,7 +30,7 @@ a {
 
 .container {
 	margin: 0px auto;
-	padding: 0px 20px;
+	/* padding: 0px 20px; */
 	width: 1150px;
 }
 
