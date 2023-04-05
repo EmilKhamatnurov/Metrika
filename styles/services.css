@@ -32,9 +32,13 @@
 	object-fit: cover;
 }
 
+.service__image_low-indent {
+	margin-bottom: 17px;
+}
+
 .service__detail-wrapper {
 	position: absolute;
-	top: 31px;
+	top: 38px;
 	left: 30px;
 }
 
@@ -44,9 +48,8 @@
 	line-height: 30px;
 	background-color: rgb(173, 24, 24);
 	display: inline;
-	padding: 0 20px;
+	padding: 5px 21px;
 	border-radius: 5px;
-
 }
 
 .service__name {

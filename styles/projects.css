@@ -3,7 +3,7 @@
 }
 
 .projects-section {
-	margin-bottom: 150px;
+	margin-bottom: 103px;
 }
 
 .project {
@@ -56,15 +56,19 @@
 		margin-bottom: 80px;
 	}
 
+	.project_last {
+		margin-bottom: 107px;
+	}
+
 	.project__image {
 		object-fit: cover;
-		object-position: center;
 		height: 450px;
 	}
 
 	.project__name {
 		font-size: 25px;
 		line-height: 34px;
+		margin-bottom: 10px;
 	}
 
 	.projects__button {
