@@ -92,26 +92,45 @@
 }
 
 @media (max-width: 767px) {
+	.projects-section {
+		margin-bottom: 145px;
+	}
+
 	.project {
 		margin-bottom: 49px;
+	}
+
+	.project_last {
+		margin-bottom: 60px;
 	}
 
 	.project__image {
 		object-fit: cover;
 		object-position: center;
 		margin-bottom: 20px;
-		height: 350px;
+		height: 250px;
 	}
 
 	.project__name {
 		font-size: 18px;
 		line-height: 25px;
+		margin-bottom: 13px;
+	}
+
+	.project__name_third {
+		margin-bottom: 10px;
+	}
+
+	.project__link {
+		font-size: 16px;
+		line-height: 22px;
 	}
 
 	.projects__button {
 		font-size: 22px;
 		padding: 37px 0px;
 		line-height: 30px;
+		padding: 33px 0px;
 	}
 
 }

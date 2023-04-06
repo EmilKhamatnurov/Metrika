@@ -65,6 +65,10 @@
 		padding-top: 80px;
 	}
 
+	.reviews-section__title {
+		margin-bottom: 10px;
+	}
+
 	.row {
 		flex-direction: column;
 		margin-bottom: 80px;

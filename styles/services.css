@@ -150,8 +150,13 @@
 		padding: 80px 0;
 	}
 
+	.services__title {
+		margin-bottom: 34px;
+	}
+
 	.services {
-		row-gap: 60px;
+		row-gap: 67px;
+		margin-bottom: 64px;
 	}
 
 	.service {
@@ -172,7 +177,7 @@
 	.services-section__button {
 		font-size: 22px;
 		line-height: 30px;
-		padding: 37px 0px;
+		padding: 34px 0px;
 	}
 
 	@media (max-width: 475px) {

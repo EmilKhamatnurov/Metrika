@@ -55,10 +55,14 @@
 	.about__text {
 		font-size: 22px;
 		line-height: 30px;
+		max-width: 338px;
+		margin-bottom: 30px;
+		margin-left: 1px;
 	}
 
 	.about__button {
 		font-size: 16px;
 		line-height: 22px;
+		padding: 13px 27px;
 	}
 }
