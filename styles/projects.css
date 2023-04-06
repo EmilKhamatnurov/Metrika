@@ -71,6 +71,14 @@
 		object-position: bottom;
 	}
 
+	.project__image_second {
+		object-position: center -29px;
+	}
+
+	.project__image_third {
+		object-position: center -79px;
+	}
+
 	.project__name {
 		font-size: 25px;
 		line-height: 34px;

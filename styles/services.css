@@ -104,6 +104,7 @@
 
 	.services {
 		row-gap: 80px;
+		margin-bottom: 82px;
 	}
 
 	.service__name {
@@ -116,6 +117,10 @@
 		height: 315px;
 	}
 
+	.service__image_low-indent {
+		margin-bottom: 24px;
+	}
+
 	.service__detail-wrapper {
 		position: absolute;
 		top: 36px;
@@ -123,10 +128,19 @@
 
 	}
 
+	.service__detail-wrapper_second-row {
+		top: 44px;
+		left: 29px;
+	}
+
 	.service__detail {
 		font-size: 20px;
 		line-height: 27px;
 		padding: 6px 27px;
+	}
+
+	.service__detail_second-row {
+		padding: 6px 28px;
 	}
 
 }

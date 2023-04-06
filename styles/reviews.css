@@ -35,16 +35,16 @@
 	}
 
 	.row {
-		margin-bottom: 80px;
+		margin-bottom: 77px;
 		gap: 10px;
 	}
 
 	.column {
-		width: calc(50% - 10px);
+		width: calc(50% - 4px);
 	}
 
 	.review_wide {
-		max-width: 861px;
+		max-width: 694px;
 	}
 
 	.review__author {
