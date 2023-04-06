@@ -42,7 +42,7 @@ a {
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;
-	margin-bottom: 32px;
+	margin-bottom: 30px;
 }
 
 @media (max-width: 1199px) {
@@ -55,7 +55,7 @@ a {
 	.section__title {
 		font-size: 18px;
 		line-height: 25px;
-		margin-bottom: 30px;
+		margin-bottom: 32px;
 	}
 }
 

@@ -40,6 +40,8 @@
 
 	.primary-section__info {
 		height: 400px;
+		background: url("../resources/Main\ Image.png") center center / cover no-repeat;
+		background-position: top -66px left;
 	}
 
 	.primary-section__text {

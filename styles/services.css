@@ -116,10 +116,19 @@
 		height: 315px;
 	}
 
+	.service__detail-wrapper {
+		position: absolute;
+		top: 36px;
+		left: 32px;
+
+	}
+
 	.service__detail {
 		font-size: 20px;
 		line-height: 27px;
+		padding: 6px 27px;
 	}
+
 }
 
 @media (max-width: 767px) {
