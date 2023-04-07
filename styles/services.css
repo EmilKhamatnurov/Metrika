@@ -152,6 +152,7 @@
 
 	.services__title {
 		margin-bottom: 34px;
+		margin-left: 3px;
 	}
 
 	.services {
@@ -169,9 +170,28 @@
 		margin-bottom: 10px;
 	}
 
+	.service__detail-wrapper {
+		top: 27px;
+		left: 25px;
+	}
+
+	.service__detail {
+		padding: 5px 24px;
+	}
+
+	.service__detail-wrapper_fourth {
+		top: 26px;
+		left: 25px;
+	}
+
+	.service__detail_fourth {
+		padding: 5px 27px;
+	}
+
 	.service__name {
 		font-size: 18px;
 		line-height: 25px;
+		margin-left: 1px;
 	}
 
 	.services-section__button {
