@@ -55,7 +55,7 @@
 	.about__text {
 		font-size: 22px;
 		line-height: 30px;
-		max-width: 338px;
+		max-width: 100%;
 		margin-bottom: 30px;
 		margin-left: 1px;
 	}

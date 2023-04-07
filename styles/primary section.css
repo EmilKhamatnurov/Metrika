@@ -62,7 +62,7 @@
 		line-height: 32px;
 		margin-bottom: 25px;
 		width: 100%;
-		max-width: 334px;
+		/* max-width: 334px; */
 	}
 
 	.primary-section__info {
