@@ -65,14 +65,14 @@
 		padding-top: 80px;
 	}
 
-	.reviews-section__title h2 {
-		margin-bottom: 22px;
+	.reviews-section__title {
+		margin-bottom: 24px !important;
 	}
 
 	.row {
 		flex-direction: column;
 		margin-bottom: 80px;
-		gap: 10px;
+		gap: 73px;
 	}
 
 	.column {
@@ -86,7 +86,7 @@
 	.review__author {
 		font-size: 25px;
 		line-height: 34px;
-		margin-bottom: 25px;
+		margin-bottom: 9px;
 	}
 
 	.review__text {
