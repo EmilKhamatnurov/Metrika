@@ -1,23 +1,71 @@
-.gallery-section {}
+.gallery-section {
+}
+.section__title {
+}
+/* Галерея */
+.gallery {
+    position: relative;
+    width: 100%;
+}
+.gallery-section__title-wrapper {
+    position: absolute;
+    top: 67px;
+    z-index: 100;
+}
+.gallery-section__title {
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+/* Слайды */
+.gallery__slides {
+    position: relative;
+}
+.gallery__slide {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 717px;
+}
+.gallery__slide_active {
+    opacity: 1;
+}
+/* Изображения слайдов */
+.gallery__slide_first {
+    background: url("../resources/Slide_project_1.png") center center / cover no-repeat;
+}
+.gallery__slide_second {
+    background: url("../resources/Slide_project_2.png") center center / cover no-repeat;
+}
+.gallery__slide_third {
+    background: url("../resources/Slide_project_3.png") center center / cover no-repeat;
+}
+.gallery__slide_fourth {
+    background: url("../resources/Slide_project_4.png") center center / cover no-repeat;
+}
 
-.gallery-section__title {}
 
-.gallery {}
-
-.gallery__slides {}
-
-.gallery__slide {}
-
-.gallery__image {}
-
-.gallery__project-name {}
-
-.gallery__controls {}
-
-.gallery__controls-prev {}
-
-.gallery__controls-prev-button-image {}
-
-.gallery__controls-next {}
-
-.gallery__controls-next-button-image {}
+.gallery__project-name-wrapper {
+    position: absolute;
+}
+.gallery__project-name {
+    font-size: 30px;
+line-height: 41px;
+color: #fff;
+max-width: 443px;
+}
+.gallery__controls-wrapper {
+}
+.gallery__controls {
+}
+.gallery__controls-prev {
+}
+.gallery__controls-prev-button-image {
+}
+.gallery__controls-next {
+}
+.gallery__controls-next-button-image {
+}

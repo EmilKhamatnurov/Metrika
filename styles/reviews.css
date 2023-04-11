@@ -1,5 +1,6 @@
 .reviews-section {
 	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 .reviews {
@@ -35,6 +36,7 @@
 
 	.reviews-section {
 		padding-top: 117px;
+		padding-bottom: 120px;
 	}
 
 	.review:last-child:nth-child(2n+1) {
@@ -58,6 +60,7 @@
 @media (max-width: 767px) {
 	.reviews-section {
 		padding-top: 80px;
+		padding-bottom: 80px;
 	}
 
 	.reviews-section__title {
