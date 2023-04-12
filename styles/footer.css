@@ -19,12 +19,14 @@
 .footer__link {
 	color: rgb(255, 255, 255);
 	margin-left: 55px;
-	border-bottom: 1px solid #121212;
+	border-bottom: none;
+	font-size: 18px;
+	line-height: 25px;
 }
 
 .footer__link:hover {
 	opacity: 0.5;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: none;
 	color: rgb(255, 255, 255);
 }
 

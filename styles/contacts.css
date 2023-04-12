@@ -1,13 +1,12 @@
-.contacts {
-	margin: 187px 0 162px 0;
+.contacts-section {
+	margin: 150px 0 162px 0;
 }
 
 
-.contacts__title {
+.contacts-section__title {
 	font-size: 18px;
 	line-height: 25px;
-	font-weight: 100;
-	margin-bottom: 31px;
+	margin-bottom: 74px;
 	position: relative;
 }
 
@@ -24,39 +23,56 @@
 	background-size: contain;
 }
 
-.contacts__phone__number_paragraph {
-	margin-bottom: 30px;
+.contacts-section__info {
+	display: flex;
+	align-items: center;
+	gap: 104px;
 }
 
-.contacts__phone__number {
-
+.contacts-section__phone {
 	font-size: 60px;
+	position: relative;
 	font-weight: 400;
 	line-height: 60px;
 	display: inline;
+	border-bottom: 2px solid rgb(255, 255, 255);
 	text-decoration: none;
 	color: #121212;
 	letter-spacing: -0.99px;
 }
 
-.contacts__phone__number:hover {
+.contacts-section__phone::before {
+	content: url("../resources/phone_icon.svg");
+	display: block;
+	width: 24px;
+	height: 24px;
+	opacity: 1;
+	position: absolute;
+	top: -65px;
+}
+
+.contacts-section__phone:hover {
 	opacity: 0.5;
+	transition: 0.3s;
 	display: inline;
 	border-bottom: 2px solid black;
 	letter-spacing: -0.99px;
 }
 
-.contacts__email {
+
+.contacts-section__mail {
 	font-size: 60px;
 	line-height: 57px;
 	color: rgb(18, 18, 18);
+	border-bottom: 2px solid rgb(255, 255, 255);
 	display: inline;
 	text-decoration: none;
 	font-weight: 100;
 
 }
 
-.contacts__email:hover {
+.contacts-section__mail:hover {
 	opacity: 0.5;
+	transition: 0.3s;
 	border-bottom: 2px solid black;
 }
