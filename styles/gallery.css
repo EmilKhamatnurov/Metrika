@@ -1,71 +1,102 @@
-.gallery-section {
-}
-.section__title {
-}
+.gallery-section {}
+
 /* Галерея */
 .gallery {
-    position: relative;
-    width: 100%;
+	position: relative;
+	width: 100%;
+	height: 717px;
 }
+
 .gallery-section__title-wrapper {
-    position: absolute;
-    top: 67px;
-    z-index: 100;
+	position: absolute;
+	top: 67px;
+	z-index: 100;
 }
+
 .gallery-section__title {
-    color: #fff;
-    font-size: 22px;
-    line-height: 30px;
-    text-transform: uppercase;
+	color: #fff;
+	font-size: 22px;
+	line-height: 30px;
+	text-transform: uppercase;
 }
+
 /* Слайды */
 .gallery__slides {
-    position: relative;
+	position: relative;
 }
+
 .gallery__slide {
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 717px;
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 717px;
 }
+
 .gallery__slide_active {
-    opacity: 1;
+	opacity: 1;
 }
+
 /* Изображения слайдов */
 .gallery__slide_first {
-    background: url("../resources/Slide_project_1.png") center center / cover no-repeat;
+	background: url("../resources/Slide_project_1.png") center center / cover no-repeat;
 }
+
 .gallery__slide_second {
-    background: url("../resources/Slide_project_2.png") center center / cover no-repeat;
+	background: url("../resources/Slide_project_2.png") center center / cover no-repeat;
 }
+
 .gallery__slide_third {
-    background: url("../resources/Slide_project_3.png") center center / cover no-repeat;
+	background: url("../resources/Slide_project_3.png") center center / cover no-repeat;
 }
+
 .gallery__slide_fourth {
-    background: url("../resources/Slide_project_4.png") center center / cover no-repeat;
+	background: url("../resources/Slide_project_4.png") center center / cover no-repeat;
 }
 
 
 .gallery__project-name-wrapper {
-    position: absolute;
+	position: absolute;
+	bottom: 60px;
 }
+
 .gallery__project-name {
-    font-size: 30px;
-line-height: 41px;
-color: #fff;
-max-width: 443px;
+	font-size: 30px;
+	line-height: 41px;
+	color: #fff;
+	max-width: 443px;
 }
-.gallery__controls-wrapper {
+
+.gallery__control-wrapper {
+	position: absolute;
+	/* display: flex; */
+	bottom: 162px;
+	width: 100%;
 }
-.gallery__controls {
+
+.gallery__control {
+	display: flex;
+	/* Это свойство использовать в адаптиве */
+	/* justify-content: space-between; */
 }
-.gallery__controls-prev {
+
+.gallery__control-prev {
+	width: 40px;
+	height: 40px;
 }
-.gallery__controls-prev-button-image {
+
+.gallery__control-prev:hover {
+	opacity: 0.5;
+	transition: 0.2s;
 }
-.gallery__controls-next {
+
+.gallery__control-next {
+	width: 40px;
+	height: 40px;
 }
-.gallery__controls-next-button-image {
+
+.gallery__control-next:hover {
+	transition: 0.2s;
+	opacity: 0.5;
 }
