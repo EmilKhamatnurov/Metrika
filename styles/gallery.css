@@ -9,11 +9,11 @@
 
 .gallery-section__title-wrapper {
 	position: absolute;
-	top: 67px;
+	top: 60px;
 	z-index: 100;
 }
 
-.gallery-section__title {
+.section__title.gallery-section__title {
 	color: #fff;
 	font-size: 22px;
 	line-height: 30px;
@@ -71,19 +71,20 @@
 .gallery__control-wrapper {
 	position: absolute;
 	/* display: flex; */
-	bottom: 162px;
+	bottom: 165px;
 	width: 100%;
 }
 
 .gallery__control {
 	display: flex;
+	gap: 34px;
 	/* Это свойство использовать в адаптиве */
 	/* justify-content: space-between; */
 }
 
 .gallery__control-prev {
-	width: 40px;
-	height: 40px;
+	/* width: 40px;
+	height: 40px; */
 }
 
 .gallery__control-prev:hover {
@@ -92,8 +93,8 @@
 }
 
 .gallery__control-next {
-	width: 40px;
-	height: 40px;
+	/* width: 40px;
+	height: 40px; */
 }
 
 .gallery__control-next:hover {
