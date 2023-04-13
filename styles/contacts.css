@@ -71,10 +71,10 @@
 	top: -79px;
 }
 
-
+/* Adaptive for tablets */
 @media (max-width: 1199px) {
 	.contacts-section {
-		margin: 120px 0 78px 0;
+		margin: 78px 0 78px 0;
 	}
 
 	.section__title.contacts-section__title {
@@ -105,20 +105,24 @@
 	}
 }
 
+/* Изменение расстояния между телефоном и почтой для исправление переноса телефона на другую строку */
 @media (max-width: 815px) {
 	.contacts-section__info {
 		gap: 100px;
 	}
 }
 
+/* Adaptive for phones */
 @media (max-width: 767px) {
 	.section__title.contacts-section__title {
 		margin-bottom: 58px;
+		font-size: 14px;
+		line-height: 19px;
 	}
 
 	.contacts-section__info {
 		flex-direction: column;
-		/* gap: 104px; */
+		gap: 56px;
 	}
 
 	.contacts-section__phone {
@@ -127,9 +131,26 @@
 		display: block;
 	}
 
+	.contacts-section__phone::before {
+		content: url("../resources/phone-icon_small.svg");
+		width: 18px;
+		height: 18px;
+		top: -56px;
+		left: -4px;
+	}
+
 	.contacts-section__mail {
 		font-size: 35px;
 		line-height: 46px;
 		display: block;
 	}
+
+	.contacts-section__mail::before {
+		content: url("../resources/mail-icon_small.svg");
+		width: 18px;
+		height: 18px;
+		top: -56px;
+		left: -1px;
+	}
+
 }
