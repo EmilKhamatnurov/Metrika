@@ -70,3 +70,66 @@
 	position: absolute;
 	top: -79px;
 }
+
+
+@media (max-width: 1199px) {
+	.contacts-section {
+		margin: 120px 0 78px 0;
+	}
+
+	.section__title.contacts-section__title {
+		margin-bottom: 74px;
+	}
+
+	.contacts-section__info {
+		gap: 114px;
+	}
+
+	.contacts-section__phone {
+		font-size: 45px;
+		line-height: 60px;
+	}
+
+	.contacts-section__phone::before {
+		top: -74px;
+	}
+
+	.contacts-section__mail {
+		font-size: 45px;
+		line-height: 60px;
+	}
+
+	.contacts-section__mail::before {
+		top: -76px;
+		left: 8px;
+	}
+}
+
+@media (max-width: 815px) {
+	.contacts-section__info {
+		gap: 100px;
+	}
+}
+
+@media (max-width: 767px) {
+	.section__title.contacts-section__title {
+		margin-bottom: 58px;
+	}
+
+	.contacts-section__info {
+		flex-direction: column;
+		/* gap: 104px; */
+	}
+
+	.contacts-section__phone {
+		font-size: 35px;
+		line-height: 46px;
+		display: block;
+	}
+
+	.contacts-section__mail {
+		font-size: 35px;
+		line-height: 46px;
+		display: block;
+	}
+}

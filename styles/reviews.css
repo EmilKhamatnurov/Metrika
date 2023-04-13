@@ -31,7 +31,12 @@
 
 @media (max-width: 1199px) {
 	.reviews {
+
 		gap: 78px 10px;
+	}
+
+	.review {
+		flex: 0 1 calc(50% - 5px);
 	}
 
 	.reviews-section {

@@ -76,9 +76,9 @@
 
 .gallery__control {
 	display: flex;
+	width: 100%;
 	gap: 34px;
-	/* Это свойство использовать в адаптиве */
-	/* justify-content: space-between; */
+
 }
 
 .gallery__control-prev {
@@ -106,19 +106,21 @@
 		height: 536px;
 	}
 
-
 	.gallery__slide {
 		height: 536px;
+		padding-left: 36px;
 	}
 
 	.gallery-section__title-wrapper {
 		top: 80px;
+		left: 50px;
 	}
 
 	.section__title.gallery-section__title {
 		font-size: 20px;
 		line-height: 27px;
 	}
+
 
 	.gallery__project-name-wrapper {
 		position: absolute;
@@ -128,7 +130,13 @@
 	.gallery__project-name {
 		font-size: 25px;
 		line-height: 34px;
+		max-width: 374px;
+	}
 
+	.gallery__control-wrapper {
+		bottom: 155px;
+		left: 37px;
+		width: calc(100% - 50px - 15px);
 	}
 
 }
@@ -145,11 +153,13 @@ _ _Адаптив для кнопок
 
 	.gallery__slide {
 		height: 408px;
+		padding-left: 0px;
 	}
 
 
 	.gallery-section__title-wrapper {
-		top: 61px;
+		top: 59px;
+		left: 12px;
 	}
 
 	.section__title.gallery-section__title {
@@ -159,12 +169,34 @@ _ _Адаптив для кнопок
 
 	.gallery__project-name-wrapper {
 		position: absolute;
-		bottom: 60px;
+		bottom: 61px;
 	}
 
 	.gallery__project-name {
 		font-size: 19px;
 		line-height: 26px;
-
+		max-width: 277px;
 	}
+
+	.gallery__control-wrapper {
+		width: calc(100%);
+		bottom: 194px;
+		left: 0px;
+	}
+
+	.gallery__control {
+		justify-content: space-between;
+	}
+
+	.gallery__control-prev {
+		width: 15px;
+		height: 25px;
+	}
+
+	.gallery__control-next {
+		width: 15px;
+		height: 25px;
+	}
+
+
 }
