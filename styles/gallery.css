@@ -160,11 +160,13 @@ _ _Адаптив для кнопок
 	.gallery-section__title-wrapper {
 		top: 59px;
 		left: 12px;
+
 	}
 
 	.section__title.gallery-section__title {
 		font-size: 14px;
 		line-height: 19px;
+		/* z-index: 10; Нужно как-то исправить появление заголовка при появлении PopUp */
 	}
 
 	.gallery__project-name-wrapper {

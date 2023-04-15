@@ -19,7 +19,7 @@
 </head>
 <body>
 	<header class="header">
-		<!-- <div class="header__container">
+		<div class="header__container">
 			<a href="#" class="header__logo">
 				<img src="resources/Метрика.svg" alt="Site logo">
 			</a>
@@ -29,7 +29,11 @@
 				<a class="header__link"  href="#services">УСЛУГИ</a>
 				<a class="header__link"  href="#contacts">КОНТАКТЫ</a>
 			</nav>
-		</div> -->
+			<div class="js-burger-btn burger-btn"></div>
+		</div>
+		<div class="js-burger burger">
+			<div class="js-burger__content burger__content"></div>
+		</div>
 	</header>
 	<main class="main">
 		<!-- Главная секция -->
@@ -251,21 +255,21 @@
 							</div>
 						</div>
 					</div>
-					<div class="gallery__slide gallery__slide_second gallery__slide_active">
+					<div class="gallery__slide gallery__slide_second">
 						<div class="container">
 							<div class="gallery__project-name-wrapper">
 								<p class="gallery__project-name">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
 							</div>
 						</div>
 					</div>
-					<div class="gallery__slide gallery__slide_third gallery__slide_active">
+					<div class="gallery__slide gallery__slide_third">
 						<div class="container">
 							<div class="gallery__project-name-wrapper">
 								<p class="gallery__project-name">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
 							</div>
 						</div>
 					</div>
-					<div class="gallery__slide gallery__slide_fourth gallery__slide_active">
+					<div class="gallery__slide gallery__slide_fourth">
 						<div class="container">
 							<div class="gallery__project-name-wrapper">
 								<p class="gallery__project-name">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
@@ -312,6 +316,7 @@
 		<p class="footer__author">студия дизайна интерьера Метрика — 2023</p>
 	</footer>
 	<script src="scripts/gallery.js"></script>
-	<script src="scripts/popup.js"></script>
+	<!-- <script src="scripts/popup.js"></script> -->
+	<script src="scripts/burger.js"></script>
 </body>
 </html>

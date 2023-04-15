@@ -6,7 +6,7 @@ const popupNode = document.querySelector('.js-popup');
 const btnOpenNode = document.querySelector('.js-btn');
 const popupContentNode = document.querySelector('.js-popup__content')
 const btnCloseNode = document.querySelector('.js-popup__close-btn');
-console.log(popupNode.classList)
+
 btnOpenNode.addEventListener('click', togglePopup);
 btnCloseNode.addEventListener('click', togglePopup);
 
