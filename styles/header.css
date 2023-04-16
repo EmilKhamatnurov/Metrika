@@ -64,7 +64,7 @@
 
 
 .burger__content {
-	width: 80%;
+	width: 73%;
 	height: 100%;
 	background-color: rgba(255, 255, 255, 1);
 }
@@ -105,6 +105,9 @@
 
 	.burger-btn_open {
 		/* background-color: rgb(112, 16, 106); */
+		position: fixed;
+		right: 15px;
+		top: 10px;
 	}
 
 	.burger {
@@ -174,7 +177,7 @@
 	.burger-btn__first-line_animate {
 		transform: translate(-14px, 14px) rotate(45deg);
 		transform-origin: left top;
-		transition: 0.3s;
+
 		height: 28px;
 		width: 2px;
 		margin-bottom: 0;
@@ -184,7 +187,7 @@
 	.burger-btn__second-line_animate {
 		transform: translate(-15px, -18px) rotate(-45deg);
 		transform-origin: right bottom;
-		transition: 0.3s;
+
 		height: 28px;
 		width: 2px;
 		border-radius: 30px;
