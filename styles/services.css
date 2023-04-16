@@ -121,7 +121,7 @@
 
 .popup__content {
 	position: relative;
-	overflow: auto;
+	overflow: hidden;
 	width: 777px;
 	height: 708px;
 	background-color: #fff;
