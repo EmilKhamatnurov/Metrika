@@ -29,10 +29,28 @@
 				<a class="header__link"  href="#services">УСЛУГИ</a>
 				<a class="header__link"  href="#contacts">КОНТАКТЫ</a>
 			</nav>
-			<div class="js-burger-btn burger-btn"></div>
+			<div class="js-burger-btn burger-btn">
+				<span class="burger-btn__first-line"></span>
+				<span class="burger-btn__second-line"></span>
+			</div>
 		</div>
 		<div class="js-burger burger">
-			<div class="js-burger__content burger__content"></div>
+			<div class="js-burger__content burger__content">
+				<a href="#" class="header__logo burger__logo">
+					<img src="resources/Метрика.svg" alt="Site logo">
+				</a>
+				<nav class="burger__navigation">
+					<a class="burger__link"  href="#about__us">О НАС</a>
+					<a class="burger__link"  href="#projects">ПРОЕКТЫ</a>
+					<a class="burger__link"  href="#services">УСЛУГИ</a>
+					<a class="burger__link"  href="#contacts">КОНТАКТЫ</a>
+				</nav>
+				<div class="burger-contacts__info">
+					<p class="burger-contacts__title">для связи:</p>
+					<a class="burger-contacts__phone" href="tel:+">+7 935  895-45-35</a>
+					<a class="burger-contacts__mail" href="mailto:">hello@mail.com</a>
+				</div>
+			</div>
 		</div>
 	</header>
 	<main class="main">
@@ -318,5 +336,19 @@
 	<script src="scripts/gallery.js"></script>
 	<!-- <script src="scripts/popup.js"></script> -->
 	<script src="scripts/burger.js"></script>
+	<!-- <script>
+		const BURGER_BTN_FIRST_LINE_ANIMATE_CLASS = 'burger-btn__first-line_animate';
+		const BURGER_BTN_SECOND_LINE_ANIMATE_CLASS = 'burger-btn__second-line_animate';	
+		const burgerBtnNode = document.querySelector('.js-burger-btn');
+
+		const burgerBtnFirstLine = document.querySelector('.burger-btn__first-line');
+		const burgerBtnSecondLine = document.querySelector('.burger-btn__second-line');
+		
+		burgerBtnNode.addEventListener("click", function() {
+			burgerBtnFirstLine.classList.toggle(BURGER_BTN_FIRST_LINE_ANIMATE_CLASS);
+			burgerBtnSecondLine.classList.toggle(BURGER_BTN_SECOND_LINE_ANIMATE_CLASS);
+		});
+		
+		</script> -->
 </body>
 </html>
