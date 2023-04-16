@@ -297,6 +297,7 @@
 
 	.popup__content {
 		height: 611px;
+		overflow: hidden;
 	}
 
 	.popup__close-btn-image {
