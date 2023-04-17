@@ -193,3 +193,9 @@
 		border-radius: 30px;
 	}
 }
+
+@media (max-width: 767px) {
+	.burger__content {
+		padding: 80px 30px 0 30px;
+	}
+}
