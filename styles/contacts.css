@@ -129,6 +129,7 @@
 		font-size: 35px;
 		line-height: 46px;
 		display: block;
+		width: fit-content;
 	}
 
 	.contacts-section__phone::before {
@@ -141,6 +142,7 @@
 
 	.contacts-section__mail {
 		font-size: 35px;
+		width: fit-content;
 		line-height: 46px;
 		display: block;
 	}

@@ -61,8 +61,6 @@
 	visibility: visible;
 }
 
-
-
 .burger__content {
 	width: 73%;
 	height: 100%;
@@ -92,14 +90,14 @@
 	.burger-btn__first-line {
 		background-color: #000000;
 		width: 50px;
-		height: 1px;
+		height: 2px;
 		margin-bottom: 6px;
 	}
 
 	.burger-btn__second-line {
 		background-color: #000000;
 		width: 31px;
-		height: 1px;
+		height: 2px;
 
 	}
 
@@ -146,9 +144,18 @@
 	}
 
 	.burger__link {
+		width: fit-content;
 		font-size: 25px;
 		line-height: 34px;
 		color: #000000;
+		border-bottom: 1px solid #FFFFFF;
+	}
+
+	.burger__link:hover {
+		color: rgb(18, 18, 18);
+		transition: all 0.5s ease 0s;
+		opacity: 0.5;
+		border-bottom: 1px solid;
 	}
 
 	.burger-contacts__info {
