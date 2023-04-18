@@ -53,7 +53,7 @@
 	visibility: hidden;
 	z-index: 100;
 	background-color: rgb(0, 0, 0, 0.9);
-	transition: opacity 0.3s ease;
+	/* transition: opacity 0.3s ease; */
 }
 
 .burger_open {
@@ -64,7 +64,14 @@
 .burger__content {
 	width: 73%;
 	height: 100%;
+	overflow-y: auto;
+	/* transform: translateX(0%);
+	transition: translateX 3s linear; */
 	background-color: rgba(255, 255, 255, 1);
+}
+
+.burger_open.burger__conten {
+	/* transform: translateX(100%); */
 }
 
 @media (max-width: 1199px) {
