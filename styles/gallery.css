@@ -108,12 +108,11 @@
 
 	.gallery__slide {
 		height: 536px;
-		padding-left: 36px;
 	}
 
 	.gallery-section__title-wrapper {
 		top: 80px;
-		left: 50px;
+		left: 16px;
 	}
 
 	.section__title.gallery-section__title {
@@ -135,7 +134,7 @@
 
 	.gallery__control-wrapper {
 		bottom: 155px;
-		left: 37px;
+		left: 0;
 		width: calc(100% - 50px - 15px);
 	}
 
