@@ -14,26 +14,9 @@ const BURGER_BTN_SECOND_LINE_ANIMATE_CLASS = 'burger-btn__second-line_animate';
 const burgerBtnFirstLine = document.querySelector('.burger-btn__first-line');
 const burgerBtnSecondLine = document.querySelector('.burger-btn__second-line');
 
-//ДООЛНЕНИЯ. Закрытие меню при нажатии на ссылку
-// var burgerLinks = document.getElementsByClassName(".burger__link");
-// console.log(burgerLinks.item(0));
-
-// for (let i = 0; i < burgerLinks.length; i++) {
-// 	burgerLinks[i].addEventListener('click', toggleBurger);
-//   }
-// let firstLink = burgerLinks[0];
-// let secondLink = burgerLinks[0];
-// let thirdink = burgerLinks[0];
-// let fourthLink = burgerLinks[0];
-
-// Array.prototype.forEach.call(burgerLinks, function(burgerLinks) {
-//   element.addEventListener('click', function() {
-//     burgerNode.classList.remove(BURGER_OPENED_CLASSNAME);
-//     bodyNode.classList.remove(BODY_FIXED_CLASSNAME);
-//     burgerBtnNode.classList.remove(BURGER_BTN_OPENED_CLASSNAME);
-//   });
-// });
-
+//для отключения меню при нажатии на элемент меню
+const burgerLinks = document.querySelectorAll(".burger__link");
+burgerLinks.forEach(Element => Element.addEventListener("click",toggleBurger));
 
 burgerBtnNode.addEventListener('click', toggleBurger);
 burgerNode.addEventListener('click', (event) => {
