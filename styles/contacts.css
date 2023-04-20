@@ -74,7 +74,7 @@
 /* Adaptive for tablets */
 @media (max-width: 1199px) {
 	.contacts-section {
-		margin: 78px 0 78px 0;
+		margin: 123px 0 117px 0;
 	}
 
 	.section__title.contacts-section__title {
@@ -119,7 +119,9 @@
 		font-size: 14px;
 		line-height: 19px;
 	}
-
+	.contacts-section {
+		margin: 77px 0 78px 0;
+	}
 	.contacts-section__info {
 		flex-direction: column;
 		gap: 56px;

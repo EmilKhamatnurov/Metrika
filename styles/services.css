@@ -110,7 +110,7 @@
 
 	.services {
 		row-gap: 80px;
-		margin-bottom: 82px;
+		margin-bottom: 80px;
 	}
 
 	.service__name {
@@ -124,7 +124,7 @@
 	}
 
 	.service__image_low-indent {
-		margin-bottom: 24px;
+		margin-bottom: 13px;
 	}
 
 	.service__detail-wrapper {
@@ -162,8 +162,8 @@
 	}
 
 	.services {
-		row-gap: 67px;
-		margin-bottom: 64px;
+		row-gap: 60px;
+		margin-bottom: 56px;
 	}
 
 	.service {

@@ -61,7 +61,7 @@
 	}
 
 	.project_last {
-		margin-bottom: 107px;
+		margin-bottom: 100px;
 	}
 
 	.project__image {
@@ -69,7 +69,9 @@
 		height: 450px;
 		width: 100%;
 		object-position: bottom;
-	}
+		margin-bottom: 15px;
+		}
+
 
 	.project__image_second {
 		object-position: center -29px;
@@ -93,7 +95,7 @@
 
 @media (max-width: 767px) {
 	.projects-section {
-		margin-bottom: 145px;
+		margin-bottom: 80px;
 	}
 
 	.project {
